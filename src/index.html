@@ -1,13 +1,117 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baykar</title>
   <link href="./css/output.css" rel="stylesheet">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+
+<body class="bg-background ">
+
+  <header class="text-text_color">
+
+    <div class="flex items-center justify-between mx-auto max-w-screen-xl py-2 px-4 whitespace-nowrap">
+      <a class="text-2xl font-bold">Collers</a>
+      <nav class="hidden md:flex space-x-8 items-center font-medium text-sm text-text_color">
+        <a href="#">Products</a>
+        <a href="#">Solutions</a>
+        <a href="#">Pricing</a>
+        <a href="#">Resources</a>
+        <a href="#">Log In</a>
+        <a href="#" class="border-2 border-text_color px-4 py-2">Sign up now</a>
+      </nav>
+      <button class="md:hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main class=" ">
+
+    <section class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between px-8 mt-4 ">
+      <div>
+        <h1 class="text-5xl font-bold text-black">Collectible Sneakers</h1>
+        <p class="mt-4 text-gray-600">Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices amet.</p>
+        <div class="mt-6 space-x-5 md:space-x-10">
+          <a href="#" class="inline-block text-text_color px-6 py-2 rounded-md font-medium border-2 border-text_color">Sign up now</a>
+          <a href="#" class="inline-flex items-center text-text_color font-medium">
+            <svg class="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zM8 12l4-4-4-4v8z" clip-rule="evenodd"></path>
+            </svg>
+            Watch Demo
+          </a>
+        </div>
+      </div>
+      <div class="relative max-w-sm md:max-w-md mx-auto ">
+        <div class="absolute inset-32 inset-y-32 bg-sneakers rounded-3xl"></div>
+        <img src="/src/images/sneakers.png" class="relative ">
+    </div>
+    </section>
+
+
+    <section class=" max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 justify-center md:justify-start">
+      <div class="flex flex-col items-center md:items-start text-center md:text-left  p-5 rounded-lg">
+          <img src="\src\images\kupa.png" class="w-12 h-12 object-contain" />
+          <h2 class="font-semibold mt-2 w-full">Nibh viverra</h2>
+          <p class="mt-2 text-gray-700 max-w-xs">
+            Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.
+          </p>
+      </div>
+      
+      <div class="flex flex-col items-center md:items-start text-center md:text-left p-5 rounded-lg">
+          <img src="\src\images\cursur.png"  class="w-12 h-12 object-contain" />
+          <h2 class="font-semibold mt-2 w-full">Cursus amet</h2>
+          <p class="mt-2 text-gray-700 max-w-xs">
+            Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.
+          </p>
+      </div>
+      
+      <div class="flex flex-col items-center md:items-start text-center md:text-left  p-5 rounded-lg">
+          <img src="\src\images\ipsum.png"  class="w-12 h-12 object-contain" />
+          <h2 class="font-semibold mt-2 w-full">Ipsum fermentum</h2>
+          <p class="mt-2 text-gray-700 max-w-xs">
+            Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.
+          </p>
+      </div>
+  </section >
+
+  <section class="px-4 py-10 bg-card_color container">
+    <div class="max-w-screen-xl mx-auto">
+      <div class="flex flex-col md:flex-row text-center justify-between p-4">
+        <h2 class="text-5xl mb-8 md:mb-0 text-white font-bold ">The best of the best</h2>
+        <a href="#" class="border-2 text-white border-white px-2 py-2 text-xl">Sign up now</a>
+      </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-20  text-white text-left font-medium ">
+
+          <div class="flex flex-col  bg-card_color rounded-3xl  shadow-slate-500 shadow-xl ">
+            <img src="\src\images\shoe1.jpg" >
+            <h3 class=" p-4 text-left font-bold text-xl">Title</h3>
+            <p class="text-sm px-6 py-2 ">Egestas elit duis scelerisque ut eu purus aliquam vitae habitasse.</p>
+            <button class="mt-4 bg-card_color text-white px-6 py-2 rounded-3xl border">Buy Now</button>
+          </div>
+
+          <div class="flex flex-col  bg-card_color rounded-3xl  shadow-slate-500 shadow-xl ">
+            <img src="\src\images\shoee2.jpg" >
+            <h3 class=" p-4 text-left font-bold text-xl">Title</h3>
+            <p class="text-sm px-6 py-2 ">Egestas elit duis scelerisque ut eu purus aliquam vitae habitasse.</p>
+            <button class="mt-4 bg-card_color text-white px-6 py-2 rounded-3xl border">Buy Now</button>
+          </div>
+          
+          <div class="flex flex-col bg-card_color rounded-3xl  shadow-slate-500 shadow-xl ">
+            <img src="\src\images\shoe3.jpg"  >
+            <h3 class="  p-4 text-left font-bold text-xl">Title</h3>
+            <p class="text-sm px-6 py-2 ">Egestas elit duis scelerisque ut eu purus aliquam vitae habitasse.</p>
+            <button class=" bg-card_color text-white p-2 rounded-xl border">Buy Now</button>
+          </div>
+        </div>
+    </section>
+  </div>
+
+  
+  </main>
 </body>
 </html>
