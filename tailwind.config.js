@@ -16,16 +16,16 @@ module.exports = {
         collected_text:"#FFFBEB"
       },
       fontSize: {
-        xs: '12px', // Extra small text
-        sm: '14px', // Small text
-        base: '16px', // Base text
-        lg: '18px', // Large text
-        xl: '20px', // Extra large text
-        '2xl': '24px', // 2X large text
-        '3xl': '30px', // 3X large text
-        '4xl': '36px', // 4X large text
-        '5xl': '48px', // 5X large text
-        '6xl': '60px', // 6X large text
+        xs: '12px', 
+        sm: '18px', 
+        base: '16px', 
+        lg: '18px', 
+        xl: '20px', 
+        '2xl': '40px', 
+        '3xl': '30px', 
+        '4xl': '45px', 
+        '5xl': '52px', 
+        '6xl': '60px', 
       }
     },
   },
