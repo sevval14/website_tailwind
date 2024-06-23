@@ -2,7 +2,9 @@ Bu proje, Tailwind CSS kullanılarak geliştirilmiş responsif bir web sitesidir
 Bu projei çalıştırmadan önce node.js indirili olması gerekir.
 
 Projeyi geliştirme modunda çalıştırmak için:
+
 **npm run watch
+
 Bu komut, dosyalarda yapılan değişiklikleri izler ve CSS'yi otomatik olarak yeniden derler.
 
 **Özellikler**
